@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Meeting Minutes</title>
+    <link rel="icon" href="favicon.ico" type="image/x-icone">
+</head>
+<body>
+    <main>
+        <header>
+            <h1>CSE 110 Project First Brainstorm</h1>
+            <nav>
+                <ul>
+                    <li><a href="#attendance">Attendance</a></li>
+                    <li><a href="#agenda">Agenda</a></li>
+                    <li><a href="#meetingInfo">Meeting Information</a></li>
+                    <li><a href="#recording">Recording</a></li>
+                </ul>
+            </nav>
+        </header>
+        <hr>
+        <section id="attendance">
+            <h2>Attendance</h2>
+            <ol>
+                <li>Sean Fuhrman</li>
+                <li>Friend 1</li>
+                <li>Friend 2</li>
+            </ol>
+        </section>
+        <hr>
+        <section id="agenda">
+            <h2>Agenda</h2>
+            <div>
+                <p>This meeting we will be <strong>brainstorming</strong> about our first <i>project</i> <em>ideas</em></p>
+            </div>
+            
+        </section>
+        <hr>
+        <section id="meetingInfo">
+            <h2>Meeting Information</h2>
+            <span>
+                <p><b>Project Ideas:</b> <br>Fortune Teller, Magic 8 Ball, Magic 8-ball outfil</p>
+                <p>possible example:</p>
+                <img src="/8ball.png" alt="8 ball image">
+                <details> 
+                    <summary>Business Plan</summary>
+                    We sell the 8 ball outfit, which will spread through word of mouth and fashion sense
+                </details>
+               
+            </span>
+        </section>
+        <hr>
+        <section id="recording">
+            <h2>Recording</h2>
+            <h3>Video</h3>
+            <video controls src="Meeting.mov"></video>
+            <h3>Audio</h3>
+            <audio
+                controls
+                src="/audio.mp3"
+            >
+        </section>
+        <hr>
+
+        <h3>Feedback?</h3>
+        <form action="/post.php" method="post">
+            <fieldset>
+                <label for="check">Did you read this meeting minutes?</label>
+                <input id="check" type="checkbox" name="read">
+                <label for="radio">Did you enjoy this meeting minutes?</label>
+                <input id="radio" type="radio" name="enjoy">
+                <label for="text">Thoughts on improvements?</label>
+                <input id="text" type="text" name="improvements">
+                <label for="date">Current Data?</label>
+                <input id="date" type="date" name="date">
+            </fieldset>
+            <label for="textarea">Additional Comments</label>
+            <textarea name="comments" id="textarea" ></textarea>
+            <label for="select">Select a color</label>
+            <select id="select" name="color">
+                <option>Blue</option>
+                <option>Green</option>
+                <option>Red</option>
+                <option>Orange</option>
+            </select>
+            <button type="submit"> Submit</button>
+        </form>
+        <footer>
+            <p>Created with &hearts; by me</p>
+        </footer>
+    </main>
+</body>
+</html>
