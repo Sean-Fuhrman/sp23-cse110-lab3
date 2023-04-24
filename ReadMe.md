@@ -1,1 +1,1 @@
-URL: https://sean-fuhrman.github.io/CSE110-Lab2/
+URL: https://github.com/Sean-Fuhrman/sp23-cse110-lab3.git
