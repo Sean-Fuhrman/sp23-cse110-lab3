@@ -1,0 +1,112 @@
+* { /* reset */
+    margin: 0;
+    padding: 0;
+    scroll-behavior: smooth;
+}
+
+header {
+    background-color: rgb(255, 218, 35);
+    color : #000000;
+    min-height: 24vh;
+}
+
+ul {
+    padding-left: 2rem;
+}
+
+h1 {
+    text-decoration: green underline;
+    height : 4rem;
+}
+
+h1:hover {
+    color : red
+}
+
+section {
+    background-color: rgb(255, 218, 35);
+    color : black;
+    padding-left: 5vw;
+}
+
+h2 {
+    text-decoration: green underline;
+}
+
+img {
+    max-width: 80%;
+    max-height: 80%;
+}
+
+video {
+    width : 500px;
+}
+
+@media (max-width : 500px) {
+    video {
+        width : 80%;
+    }
+}
+
+h3 {
+    text-decoration: green underline;
+    display: block;
+    margin: auto;
+}
+
+form {
+    background-color: hsl(160, 100%, 50%);
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: center;
+    gap : 1rem;
+}
+
+
+form fieldset{
+    display: flex;
+    margin: auto;
+    border: 0.1cm solid black;
+    justify-content: flex-start;
+    align-items: center;
+    flex-flow: column wrap;
+    gap : 10px;
+    max-width: 70%;
+    padding : 10px;
+}
+
+form button:active {
+    background-color : red;
+}
+
+form button:hover {
+    background-color : green;
+}
+
+form button {
+    background-color : hsla(319, 40%, 54%, 0.9);
+    color : white;
+    border-radius: 10px;
+    border: 1px solid black;
+    padding: 10px;
+    margin: auto;
+    margin-bottom: 10px;
+    display: inline-block;
+}
+#feild2 {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+}
+
+#feild2 textarea{
+    grid-column: 2 / 3;
+    grid-row:  1 / 2;
+}
+
+footer {
+    background-color: rgb(255, 218, 35);
+    color : hsl(0, 0%, 0%);
+    padding-left: 3em;
+    text-align: center;
+}
