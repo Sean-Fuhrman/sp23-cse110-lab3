@@ -91,6 +91,7 @@ form button {
     padding: 10px;
     margin: auto;
     margin-bottom: 10px;
+    display: inline-block;
 }
 #feild2 {
     display: grid;
